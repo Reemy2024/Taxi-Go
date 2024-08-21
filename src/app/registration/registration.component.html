@@ -1,0 +1,10 @@
+<h1><i>{{message}}</i></h1>
+<h1><i>User Registration Form</i></h1>
+<form>
+<label for="name">Name:<input type="text" name="name" [(ngModel)]="user.name"></label><br> 
+<label for="email">Email:<input type="text" name="email" [(ngModel)]="user.email"><br> 
+<label for="pwd">Password:<input type="text" name="pwd" [(ngModel)]="user.password"></label><br> 
+<label for="address">Address:<input type="text" name="address" [(ngModel)]="user.address"></label><br> 
+<label><input type="submit" value="register" (click)="registerNow()"></label>
+ 
+

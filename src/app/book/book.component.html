@@ -1,0 +1,33 @@
+<h1>Book a cab</h1>
+<form >
+<div>
+    <label>Pickup Spot:<select id="pickupspot" >
+        <option value="Current Location">Current Location</option>
+        <option value="Home">Home</option>
+        <option value="Work">Work</option>
+        <option value="Other">..Other</option>
+    </select></label><br>
+    <label>Destination:<select placeholder="Choose Location" id="destination">
+        <option value="Saved Location">Saved Location</option>
+        <option value="Home">Home</option>
+        <option value="Work">Work</option>
+        <option value="Other">..Other</option>
+
+    </select></label><br>
+    <label >Duration:<input type="text" id="duration"></label><br>
+
+    <button type="button" value="Book" (click)="booked()">Book</button><br>
+</div>
+</form>
+
+<!-- <form >
+    <div>
+      <label>Pickup Spot: <input type="text" {{pickupSpot}}> </label><br>
+      <label>Destination: <input type="text" {{ destination }}></label><br>
+      <label>Duration: <input type="text" {{ duration}}> </label><br>
+      <label>Fare: <input type="text"> {{ farecal()}}</label><br>
+      <button (click)="booked()" type="button" value="Confirm">Confirm</button><br>
+    </div>
+  </form> -->
+
+  {{message1}}
